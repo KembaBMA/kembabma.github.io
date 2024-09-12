@@ -183,7 +183,7 @@ body {
 #app-mount .staticButton_ef18ee,
 #app-mount .contextMenuNub_ef18ee {
     background-color: rgba(255, 255, 255, 0.1) !important; /*off call*/
-    color: rgb(219, 14, 14) !important;
+    color: rgb(255, 255, 255) !important;
 }
 #app-mount .staticButton_ef18ee:hover {
     background-color: rgba(255, 255, 255, 0.2) !important; /*off call*/

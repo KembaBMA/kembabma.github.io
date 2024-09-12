@@ -1,0 +1,29 @@
+.fusion-text.fusion-text-1 {
+    display: none;
+}
+
+footer.fusion-footer-widget-area.fusion-widget-area {
+    background: #302f3f;
+    display: none;
+}
+
+.wp-night-mode-on #af-wrapper #statistics {
+    display: none;
+}
+
+#af-wrapper #read-unread {
+    display: none;
+}
+
+.to-top-right #toTop {
+    display: none;
+    right: 75px;
+}
+
+#af-wrapper #forum-breadcrumbs {
+    display: none !important;
+}
+
+#af-wrapper #bottom-navigation {
+    display: none !important;
+}

@@ -182,7 +182,7 @@ body {
 /* Кнопки в голосовом чате (офф микро, дать демку, выйти из звонка) */
 #app-mount .staticButton_ef18ee,
 #app-mount .contextMenuNub_ef18ee {
-    background-color: rgba(255, 255, 255, 0.1) !important; /*off call*/
+    background-color: rgb(235, 3, 3) !important; /*off call*/
     color: rgb(255, 255, 255) !important;
 }
 #app-mount .staticButton_ef18ee:hover {

@@ -66,7 +66,7 @@
     /* можно выключить микрофон */
     --primary-860: rgba(202, 90, 99, 0.9);
     /* мьют микро на панели снизу слева */
-    --important-messages-color: #fdbdbd;
+    --important-messages-color: #ec0000;
     /* Длина и отступ панели табов в настройках */
     --custom-standard-sidebar-view-sidebar-content-width: 217px;
     --custom-standard-sidebar-view-standard-padding: 100px;

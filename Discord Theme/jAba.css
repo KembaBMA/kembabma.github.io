@@ -14,12 +14,12 @@
 }
 
 .theme-dark {
-    /* Border в чате на сообщениях где код */
+    /* Borde en el chat en mensajes donde está el código */
     --background-secondary-alt: rgba(255, 255, 255, 0.05);
     --background-tertiary: var(--background-secondary-alt);
-    /* Бейджики  уведомлений */
+    /* Insignias de notificación */
     --status-danger: rgba(202, 90, 99, 0.9);
-    /* ссылки*/
+    /* Referencias*/
     --text-link: rgb(125, 170, 233);
     /* много где */
     --background-primary: rgba(245, 245, 245, 0.1);
@@ -156,7 +156,7 @@ body {
 /* фиксит 4px title bar */
 .withFrame_a934d8 {
     margin-top: 0;
-    padding-top: 4px;
+    padding-top: 10px;
 }
 
 /* убирает залупу */

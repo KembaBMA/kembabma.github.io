@@ -21,15 +21,15 @@
     --status-danger: rgba(202, 90, 99, 0.9);
     /* Referencias*/
     --text-link: rgb(125, 170, 233);
-    /* много где */
+    /* Mucho de donde */
     --background-primary: rgba(245, 245, 245, 0.1);
-    /* много где используется*/
+    /* Mucho de dónde se usa*/
     --background-secondary: rgba(255, 255, 255, 0.05);
-    /* загруска сообщений в чате*/
+    /* Cargando mensajes en el chat*/
     --bg-overlay-chat: rgba(255, 255, 255, 0.05);
-    /* контекстное меню КРАСНАЯ кнопкА при наведении */
+    /* Botón Rojo del menú contextual al pasar el rato */
     --button-danger-background: rgba(250, 100, 135, 0.25);
-    /* наводишься там где мьют микро слева снизу */
+    /* te estás inclinando donde se aconsejan en la izquierda desde la parte inferior */
     --background-modifier-selected: rgba(190, 190, 190, 0.25);
     --background-floating: rgba(190, 190, 190, 0.25);
     --status-positive-background: rgba(190, 190, 190, 0.25);
@@ -39,33 +39,33 @@
     --text-brand: white;
 }
 :root {
-    /* Шрифт */
+    /* Fuente */
     --font-primary: "Montserrat", Arial, sans-serif;
     --font-display: "Montserrat", Arial, sans-serif;
     --font-headline: "Montserrat", Arial, sans-serif;
     --status-positive: rgba(255, 255, 255, 0.7);
     --text-positive: rgba(255, 255, 255, 0.67);
-    /* Цвет загрузки демок и прочего */
+    /* El color del demonio de carga y otras cosas */
     --primary-700: rgba(200, 200, 200, 0.1);
     /* bar */
     --brand-500: rgba(100, 100, 100);
-    /* Бордер чекбоксов, спиннер */
+    /* Casilla de verificación de borde, spinner */
     --brand-400: rgba(170, 170, 170, 0.4);
-    /* текст какой то */
+    /* Algún tipo de texto */
     --brand-560: rgb(220, 220, 220);
-    /* контекстное меню кнопки при наведении */
+    /* Menú contextual del botón cuando */
     --brand-530: rgba(230, 240, 255, 0.15);
-    /* контекстное меню когда зажал */
+    /* Menú contextual cuando me sujeté */
     --brand-600: rgba(255, 255, 255, 0.3);
     /* мьют микро */
     --red-400: rgba(202, 90, 116, 0.7);
-    /* стрелочка наводишься там где вайфай  */
+    /* Se visita la flecha donde el wifi  */
     --green-360: rgba(21, 247, 0, 0.15);
-    /* задний цвет там где сервер выбираешь */
+    /* el color trasero donde elige el servidor */
     --primary-630: rgba(230, 240, 255, 0.15);
     /* можно выключить микрофон */
     --primary-860: rgba(202, 90, 99, 0.9);
-    /* мьют микро на панели снизу слева */
+    /* Micro en el panel desde abajo a la izquierda */
     --important-messages-color: #ec0000;
     /* Длина и отступ панели табов в настройках */
     --custom-standard-sidebar-view-sidebar-content-width: 217px;
@@ -103,7 +103,7 @@ body {
     display: block;
 }
 
-/* убирает задний цвет для гифки */
+/* Elimina el color trasero para el gif */
 .chatContent_a7d72e,
 .chat_a7d72e,
 .sidebar_a4d4d9,
@@ -156,7 +156,7 @@ body {
 /* фиксит 4px title bar */
 .withFrame_a934d8 {
     margin-top: 0;
-    padding-top: 4px;
+    padding-top: 10px;
 }
 
 /* убирает залупу */
@@ -179,7 +179,7 @@ body {
     background: rgba(94, 98, 106, 0.4) !important;
 }
 
-/* Кнопки в голосовом чате (офф микро, дать демку, выйти из звонка) */
+/* Botones en el chat de voz (fuera de micro, dar una demostración, salir de la llamada) */
 #app-mount .staticButton_ef18ee,
 #app-mount .contextMenuNub_ef18ee {
     background-color: rgba(255, 255, 255, 0.1) !important; /*off call*/
@@ -189,7 +189,7 @@ body {
     background-color: rgba(255, 0, 0, 0.2) !important; /*off call*/
 }
 
-/* демка */
+/* dema */
 .callContainer_d880dc {
     background: linear-gradient(
         rgba(0, 0, 0, 0.15),
@@ -210,7 +210,7 @@ body {
     box-shadow: none;
 }
 
-/* меняет градиент при навидиении там где демка */
+/* Cambia el gradiente al pasar el rato donde la demostración */
 .gradientContainer_dd069c {
     background-image: linear-gradient(
         rgba(255, 255, 255, 0.04) 0%,
@@ -218,7 +218,7 @@ body {
     );
 }
 
-/* ввод сообщений (chatbox) */
+/* Entrada posterior a la caja */
 .channelTextArea_a7d72e {
     background: rgba(255, 255, 255, 0.03) !important;
     border: var(--border-main);
@@ -277,7 +277,7 @@ body {
     pointer-events: none;
     z-index: -1;
 }
-/* профиля когда тыкаешь */
+/* Cuando pinchas el perfil */
 .banner_d5fdb1.divider_c3e427.biteSizeBanner_c3e427,
 .banner_d5fdb1.divider_c3e427.fullSizeBanner_c3e427.roundedBanner_c3e427,
 .fullSizeInnerThemed_c69a7b {
@@ -290,7 +290,7 @@ body {
     box-shadow: inset 0 0 15px rgba(100, 100, 100, 0.1) !important;
 }
 
-/* профиль слева снизу */
+/* Perfil a la izquierda a continuación */
 .biteSizeInnerThemed_c69a7b {
     background: rgba(255, 255, 255, 0.03) !important;
 }
@@ -303,7 +303,7 @@ body {
     left: 8px;
 }
 
-/* панель пользователя */
+/* Panel de usuario */
 [class^="sidebar_"] [class^="panels_"] {
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45),
         inset 0 0 10px rgba(100, 100, 100, 0.2);
@@ -325,7 +325,7 @@ body {
     background: rgba(100, 100, 100, 0.15);
 }
 
-/* При наведении в чате на сообщение справа тул панель с действиями */
+/* Al pasar el flujo en una charla en un mensaje a la derecha, el panel de TUL con acciones*/
 .wrapper_f7e168 {
     border-radius: 10px;
     border: 1px solid var(--background-secondary-alt);
@@ -333,7 +333,7 @@ body {
     background: rgba(165, 165, 165, 0.15);
 }
 
-/* Сверху слева иконка дискорда, убираем цвет если не активна */
+/* En la parte superior de la izquierda, el icono de discordia, retire el color si no está activo */
 .childWrapperNoHoverBg_f90abb {
     background: transparent;
 }
@@ -374,7 +374,7 @@ a.anchor_af404b > span:not(.username_de3235) {
 /* друзья */
 /* друзья */
 
-/* поиск нажатие */
+/* Búsqueda presionando */
 .quickswitcher_f4e139 {
     background: rgba(100, 100, 100, 0.15);
     box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1);
@@ -394,7 +394,7 @@ a.anchor_af404b > span:not(.username_de3235) {
 .mentioned_d5deea {
     background: rgba(226, 226, 226, 0.08) !important;
 }
-/* Линия слева в сообщении в котором тебя упомянули */
+/* La línea de la izquierda en el mensaje en el que te mencionaron */
 .mentioned_d5deea:before {
     background-color: rgba(226, 226, 226, 0.16);
 }
@@ -520,7 +520,7 @@ button[class*="lookFilled_dd4f85"] {
 button[class*="lookFilled_dd4f85"]:hover {
     background-color: rgba(150, 150, 150, 0.35) !important;
 }
-/* Кнопка деавторизировать */
+/*  Desxatopatorización */
 .lookOutlined_dd4f85.colorRed_dd4f85 {
     border: var(--border-main);
 }
@@ -565,7 +565,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     margin-top: -15px; /* Фикс для margin области разговора (демки) что бы дискорд не прыгал */
 }
 
-/* Открытый поиск в диалоге (когда уже просматриваешь найденные сообщения) */
+/* Abra la búsqueda en el diálogo (cuando ya miras las publicaciones encontradas) */
 .searchResultsWrap_c2b47d {
     background-color: rgba(100, 100, 100, 0.2) !important;
 }
@@ -574,7 +574,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     border: var(--border-main);
 }
 
-/* Кнопка + (Добавить сервер) */
+/* Botón + (Agregar servidor) */
 .circleIconButton_db6521 {
     background-color: rgba(200, 205, 210, 0.1) !important;
     color: rgba(200, 200, 200, 0.8) !important;
@@ -588,7 +588,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     backdrop-filter: blur(20px);
 }
 
-/* кнопка пригласить на сервер друга */
+/* Button Invite a un amigo al servidor */
 .inviteRowButton_cedfaf,
 .lookOutlined_dd4f85.colorGreen_dd4f85:hover {
     background-color: rgba(100, 100, 100, 0.25);
@@ -603,17 +603,17 @@ button[class*="lookFilled_dd4f85"]:hover {
 .speaking-3K28iH,
 .speaking_fb2f1c,
 .avatarSpeaking_c51b4e {
-    box-shadow: inset 0 0 10px rgb(81, 255, 0);
+    box-shadow: inset 0 0 10px rgb(130, 130, 130);
 }
 
-/* устройстав задний цвет */
+/* El color trasero está dispuesto */
 .sessionIcon_c7a2c0,
 .legacySession_c7a2c0 .sessionIcon_c7a2c0 {
     filter: invert();
     background-color: rgba(100, 100, 100, 0.25) !important;
 }
 
-/* BETA где то в настройках */
+/* Beta en algún lugar de la configuración */
 .textBadge_f05120 {
     background-color: rgba(100, 100, 100, 0.5) !important;
 }
@@ -635,7 +635,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     border-radius: 10px;
 }
 
-/* цвет профиля когда тыкаешь сверху */
+/* Color de perfil cuando topas en la parte superior */
 .popoutBanner_c3e427,
 .banner_d5fdb1.modalBanner_c3e427 {
     background-color: rgba(100, 100, 100, 0.2) !important;
@@ -652,11 +652,11 @@ button[class*="lookFilled_dd4f85"]:hover {
     z-index: -1;
 }
 
-/* идет загрузка файла */
+/* El archivo se descarga */
 .attachment_b52bef {
     background-color: rgba(100, 100, 100, 0.1) !important;
 }
-/* вставка файла в чат */
+/* Insertar de archivo en el chat */
 .upload_df1eaf {
     background-color: rgba(100, 100, 100, 0.2) !important;
     border-radius: 10px;
@@ -667,17 +667,17 @@ button[class*="lookFilled_dd4f85"]:hover {
     background-color: rgb(71, 71, 71) !important;
 }
 
-/* Шрифт для плагина который показывает сколько времени я в голосовом канале */
+/* Fuente para un complemento que muestra cuánto tiempo estoy en el canal de voz */
 .text-xs-normal__46d75 span {
     font-family: var(--font-primary) !important;
 }
 
-/* шрифт ГОЛОСОВАЯ СВЯЗЬ ПОДКЛЮЧЕНА */
+/* La fuente de comunicación de voz está conectada */
 .contents_dd4f85 {
     font-weight: 500;
 }
 
-/* ачивмент в профиле */
+/* Logro en el perfil */
 .profileBadges_f89da9 {
     background-color: rgba(140, 140, 140, 0.2) !important;
 }
@@ -689,14 +689,14 @@ button[class*="lookFilled_dd4f85"]:hover {
 .container_e40c16.fixClipping_c7e9c6 {
     backdrop-filter: blur(30px);
 }
-/* сверху в чате новые сообщения */
+/* En la parte superior del chat, nuevos mensajes */
 .newMessagesBar_cf58b5 {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: var(--border-main);
 }
 
-/* форумы на сервере */
+/* Foros en el servidor */
 .mainCard_a6d69a {
     background: rgba(255, 255, 255, 0.1);
 }
@@ -734,7 +734,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     font-weight: bold;
 }
 
-/* хз рандом кнопка */
+/* Botón aleatorio xz */
 .buttonContainer_df39bd {
     display: none;
 }
@@ -749,7 +749,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     }
 }
 
-/* дискорд прокрутка при загрузке */
+/* Discordio de desplazamiento al cargar */
 .scroller_c6b11b,
 .thin_c49869.scrollerBase_c49869.fade_c49869,
 .brand_a0 {
@@ -761,61 +761,61 @@ button[class*="lookFilled_dd4f85"]:hover {
     background: rgba(255, 0, 0, 1) !important;
 }
 
-/* просмотр каналов на сервере */
+/* Ver canales en el servidor */
 .channelRow_f04d06 {
     background: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* в вашем списке каналов нет этого канала НА СЕРВЕРЕ  */
+/* No hay canal en su lista de canales en el servidor  */
 .chatHeaderBar_efb691 {
     background: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* ПОМЕТКА БОТА БОТ */
+/* Nota bot bot */
 .botTagRegular_a9e77f {
     background: rgba(255, 255, 255, 0.15) !important;
 }
 
-/* прN наведении на упоминание */
+/* PRN */
 .interactive:hover {
     background: rgba(255, 255, 255, 0.15) !important;
 }
 
-/* Поставленная реакция на сообщение */
+/* Establecer reacción al mensaje */
 .reactionMe_ec6b19 {
     background: rgba(255, 255, 255, 0.15) !important;
 }
 
-/* ветки на серверах */
+/* Ramas en servidores */
 .container_e664f3 {
     backdrop-filter: blur(25px);
 }
 
-/* Иконка дискорда слева сверху */
+/* Icono de discordia en la parte superior izquierda */
 .wrapper_f90abb:hover .childWrapper_f90abb,
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
     background: rgba(255, 255, 255, 0.1) !important;
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Кнопки в контекстном меню */
+/* Botones en el menú contextual */
 .colorDefault_d90b3d.focused_d90b3d {
     border-radius: 10px;
 }
 
-/* удалить сообщение в контекстом меню */
+/* Eliminar un mensaje en el contexto del menú */
 .colorDanger_d90b3d {
     color: rgb(202, 90, 116);
 }
 
-/* способы скама на нитро на маманта */
+/* Métodos de estafa nitro para Mamant */
 .paymentPane_f66684,
 .paginator_f66684,
 .payment_a28a08 {
     background: rgba(255, 255, 255, 0.015) !important;
 }
 
-/* панель эмодзи */
+/* Emoji de panel */
 .contentWrapper_af5dbb {
     backdrop-filter: blur(20px);
 }
@@ -823,17 +823,17 @@ button[class*="lookFilled_dd4f85"]:hover {
     background: rgba(255, 255, 255, 0.05) !important;
 }
 
-/* бляр на баре  */
+/* Bles en la barra  */
 .tooltipGrey_b6c360 {
     backdrop-filter: blur(10px);
 }
 
-/* выбор контекстого меню галочки фон */
+/* Elegir un menú contextual de fondo de tick */
 .colorDefault_d90b3d.focused_d90b3d path {
     fill: rgba(255, 255, 255, 0.3);
 }
 
-/* фон выбора сервера  */
+/* El fondo del servidor  */
 .regionSelectPopout_ccb5ca {
     backdrop-filter: blur(15px);
     border-radius: 10px;
@@ -841,38 +841,38 @@ button[class*="lookFilled_dd4f85"]:hover {
     border: var(--border-main);
 }
 
-/* добавить в друзья главный экран */
+/* Agregue amigos la pantalla principal */
 .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c:hover {
     background: rgba(255, 255, 255, 0.25) !important;
 }
 
-/* добавить в друзья бордер */
+/* Agrega un borde de amigo */
 .addFriendInputWrapper_de812f:focus-within {
     border: var(--border-main);
 }
 
-/* сведение 0 сервере */
+/* Servidor social 0 */
 .container__13b2a {
     backdrop-filter: blur(20px);
     border-radius: 10px;
     border: var(--border-main);
 }
 
-/* зажатие на удалить сообщения */
+/* Exprimiendo para eliminar mensajes */
 .colorDanger_d90b3d:active:not(.hideInteraction_d90b3d) {
     background: rgba(202, 90, 116, 0.6) !important;
 }
-/* фикс бордера в контекстном меню при зажатии и отведении */
+/* Bordera corrige en el menú contextual al sujetar y en el extranjero */
 .colorDefault_d90b3d:active:not(.hideInteraction_d90b3d) {
     border-radius: 10px;
 }
 
-/* плагин membercount */
+/* Plugin memberCount */
 .vc-membercount-widget {
     --color-online: rgba(108, 255, 223, 0.7);
 }
 
-/* смотреть  стрим */
+/* Mira la transmisión */
 .streamPreview_ba4b17 {
     background: transparent !important;
 }
@@ -880,7 +880,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     backdrop-filter: blur(10px);
 }
 
-/* когда демку можно включить */
+/* Cuando puedas encender la demostración */
 .colorable_ef18ee.primaryDark_ef18ee .centerIcon_ef18ee {
     color: rgb(255, 255, 255);
 }
@@ -891,7 +891,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     color: rgba(202, 90, 99, 0.9);
 }
 
-/* линия под ссылками */
+/* Línea debajo de los enlaces */
 .anchor_af404b {
     text-decoration-color: rgba(255, 255, 255, 0.45) !important;
 }
@@ -906,7 +906,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     backdrop-filter: blur(20px);
 }
 
-/* фон сообщений при наведении */
+/* fondo */
 .message_d5deea:hover {
     background: rgba(190, 190, 190, 0.03) !important;
 }
@@ -916,7 +916,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     backdrop-filter: blur(15px) brightness(0.6);
 }
 
-/* добавить учетную запись */
+/* Agregar una cuenta */
 .authBoxExpanded_dc6abe,
 .modal_f31a4d {
     background: rgba(255, 255, 255, 0.05) !important;
@@ -934,7 +934,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     border-radius: 15px;
 }
 
-/* верхний цвет откртия профиля */
+/* El color superior del respuesta del perfil */
 .settingsBanner_c3e427 {
     background-color: rgba(100, 100, 100, 0.2) !important;
 }
@@ -947,7 +947,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 .picker_cd703d {
     backdrop-filter: blur(15px) !important;
 }
-/* Настройки > склад подарков */
+/* Configuración> Almacenadores de regalos */
 .giftCardButton_d8f41e {
     background-color: rgba(100, 100, 100, 0.2) !important;
     border: var(--border-main) !important;
@@ -971,7 +971,7 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     border-radius: 10px;
 }
 
-/* контекстное меню мышкой  навелся */
+/* El menú contextual ha ingresado al mouse */
 .colorDefault_d90b3d.focused_d90b3d {
     background: rgba(255, 255, 255, 0.1);
 }
@@ -990,23 +990,23 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     background: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* когда кто то звонит */
+/* Cuando alguien llama */
 .root_cbf230.elevationHigh_ff8688 {
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1) !important;
     border-radius: 10px;
 }
 
-/* Стеклеянные окна */
-.searchBarComponent_f0963d, /* Строка поиска слева сверху */
-.menu_d90b3d:not(.menu_ad5fac), /* Контекстное меню */ 
-.searchBar_e7c031,   /* поиск в настройках */ 
-.searchBarComponent_f0963d  /*поиск в главном менбю*/ {
+/* Ventanas mordidas */
+.searchBarComponent_f0963d, /* Línea de búsqueda a la izquierda */
+.menu_d90b3d:not(.menu_ad5fac), /* Menú contextual */ 
+.searchBar_e7c031,   /* Buscar en la configuración */ 
+.searchBarComponent_f0963d  /*Buscar en el menú principal*/ {
     background: rgba(190, 190, 190, 0.05) !important;
     border-radius: 10px !important;
 }
 
-/* профиль когда тыкаешь снизу слева */
+/* Perfil cuando empujas desde la parte inferior izquierda */
 .biteSizeInner_c69a7b::before {
     position: absolute;
     content: " ";
@@ -1019,12 +1019,12 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     z-index: -1;
 }
 
-/* цветовая панель в зависимости от цвета аватарки */
+/* panel de color dependiendo del color del avatar */
 .banner_d5fdb1 {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* добавить статус */
+/* Agregar el estado */
 .statusBubbleShape_d0a252 {
     background-color: rgba(255, 255, 255, 0.05);
 }
@@ -1083,3 +1083,4 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
         transform: rotate(360deg);
     }
 }
+

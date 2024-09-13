@@ -931,6 +931,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 /* статистика пинга  */
 .debugPanelStandalone_feab95 {
     backdrop-filter: blur(15px);
+    color: rgba(202, 90, 99, 0.9);
     border-radius: 15px;
 }
 

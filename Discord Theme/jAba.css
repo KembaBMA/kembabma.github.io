@@ -7,7 +7,7 @@
 @import url("https://eject37.github.io/DiscordTheme/RegionFlags.css");
 
 :root {
-    --app-bg: url(https://i.giphy.com/PLJeLzh6gfL2LhUIW0.webp);
+    --app-bg: url();
     --blur-bg: 80px;
     --brightness-bg: 0.35;
     --border-main: 1px solid rgba(255, 255, 255, 0.1);

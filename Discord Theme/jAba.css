@@ -825,7 +825,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 
 /* бляр на баре  */
 .tooltipGrey_b6c360 {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
 }
 
 /* выбор контекстого меню галочки фон */
